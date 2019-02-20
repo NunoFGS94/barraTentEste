@@ -1,5 +1,8 @@
 package org.academiadecodigo.bootcamp;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
 /**
  * Created by codecadet on 16/02/2019.
  */
@@ -15,6 +18,8 @@ public class Main {
         CatchScreen c = new CatchScreen();
 
         c.init();
+
+
 
 
 

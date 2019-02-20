@@ -1,20 +1,19 @@
-package org.academiadecodigo.bootcamp;
+package org.academiadecodigo.bootcamp.StagesPack;
 
 import org.academiadecodigo.simplegraphics.pictures.Picture;
 
 /**
- * Created by codecadet on 19/02/2019.
+ * Created by codecadet on 20/02/2019.
  */
-public class Attic extends Stages {
+public class Unicornios extends Stages {
 
-    private Picture background = new Picture(10,10,"bg2.jpg");
-    private boolean isUnlocked=true;
-
+    private Picture background = new Picture(10, 10, "bg3.jpg");
+    private boolean isUnlocked = false;
 
 
     @Override
     public boolean isUnlocked() {
-        return false;
+        return isUnlocked;
     }
 
     @Override
@@ -40,5 +39,9 @@ public class Attic extends Stages {
     public void startPokemon() {
 
 
+    }
+
+    public void setUnlocked(){
+        isUnlocked=true;
     }
 }

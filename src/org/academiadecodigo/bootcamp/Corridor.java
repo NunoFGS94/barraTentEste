@@ -1,5 +1,11 @@
 package org.academiadecodigo.bootcamp;
 
+import org.academiadecodigo.bootcamp.StagesPack.Attic;
+import org.academiadecodigo.bootcamp.StagesPack.Base;
+import org.academiadecodigo.bootcamp.StagesPack.Stages;
+import org.academiadecodigo.bootcamp.StagesPack.Unicornios;
+import org.academiadecodigo.bootcamp.UtilitiesPack.PingPong;
+import org.academiadecodigo.bootcamp.UtilitiesPack.Utilities;
 import org.academiadecodigo.simplegraphics.keyboard.Keyboard;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEvent;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEventType;
@@ -17,7 +23,9 @@ public class Corridor implements KeyboardHandler {
 
     //Instantiate backgrounds
     private Stages attic = new Attic();
-    private Background base = new Background();
+    private Stages base = new Base();
+    private Stages unicornios = new Unicornios();
+    private Utilities pingPong = new PingPong();
     CatchScreen catchScreen;
     private Stages stages;
 
@@ -49,10 +57,20 @@ public class Corridor implements KeyboardHandler {
         twoPressed.setKeyboardEventType(KeyboardEventType.KEY_PRESSED);
         keyboard.addEventListener(twoPressed);
 
+        KeyboardEvent threePressed = new KeyboardEvent();
+        threePressed.setKey(KeyboardEvent.KEY_3);
+        threePressed.setKeyboardEventType(KeyboardEventType.KEY_PRESSED);
+        keyboard.addEventListener(threePressed);
+
+        KeyboardEvent sixPressed = new KeyboardEvent();
+        sixPressed.setKey(KeyboardEvent.KEY_6);
+        sixPressed.setKeyboardEventType(KeyboardEventType.KEY_PRESSED);
+        keyboard.addEventListener(sixPressed);
+
         while (true) {
             System.out.print("");
             if (stageIsOngoing) {
-                stages.init();
+                stages.drawStage();
                 catchScreen = new CatchScreen();
                 bool=catchScreen.init();
                 if(bool){
@@ -69,15 +87,25 @@ public class Corridor implements KeyboardHandler {
     public void keyPressed(KeyboardEvent keyboardEvent) {
         if (keyboardEvent.getKey() == KeyboardEvent.KEY_1) {
             //Go to base
-            System.out.println("1111111111111111");
-
-            base.init();
+            stages=base;
             stageIsOngoing=true;
 
         }
         if (keyboardEvent.getKey() == KeyboardEvent.KEY_2) {
             //Go to attic
             stages=attic;
+            stageIsOngoing=true;
+
+        }
+        if (keyboardEvent.getKey() == KeyboardEvent.KEY_3 && pingPong.isUnlocked()) {
+            //Go to attic
+            stages=attic;
+            stageIsOngoing=true;
+
+        }
+        if (keyboardEvent.getKey() == KeyboardEvent.KEY_6 && unicornios.isUnlocked()) {
+            //Go to attic
+            stages=unicornios;
             stageIsOngoing=true;
 
         }

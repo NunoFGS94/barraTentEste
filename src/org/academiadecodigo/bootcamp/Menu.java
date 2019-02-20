@@ -58,27 +58,19 @@ public class Menu implements KeyboardHandler {
 
 
         //menu song init
+/*
         Music music = new Music();
         music.musicplay("menu");
-
+*/
         do{
             System.out.print("");
             if (up) {
                 Corridor corridor = new Corridor();
                 up=false;
             }
-            /*
-            if(up){
-                CatchScreen c = new CatchScreen();
-                c.init();
-                System.out.println("New Game");
 
-            }*/
         }while (!stop);
-        /*
-        while (!up) {
-            Corridor corridor = new Corridor();
-        }*/
+
 
     }
 

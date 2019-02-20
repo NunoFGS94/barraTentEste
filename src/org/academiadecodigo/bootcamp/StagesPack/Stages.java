@@ -1,11 +1,12 @@
-package org.academiadecodigo.bootcamp;
+package org.academiadecodigo.bootcamp.StagesPack;
 
+import org.academiadecodigo.bootcamp.GameScreens;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
 
 /**
  * Created by codecadet on 19/02/2019.
  */
-public abstract class Stages {
+public abstract class Stages extends GameScreens{
 
     private Picture background;
 
