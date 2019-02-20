@@ -12,16 +12,5 @@ public class Main {
 
         Menu menu = new Menu();
         menu.init();
-
-
-
-        CatchScreen c = new CatchScreen();
-
-        c.init();
-
-
-
-
-
     }
 }

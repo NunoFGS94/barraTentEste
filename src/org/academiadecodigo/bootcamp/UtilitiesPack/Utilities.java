@@ -12,5 +12,7 @@ public abstract class Utilities extends GameScreens{
     public abstract void hideStage();
     public abstract void setUnlocked();
     public abstract boolean isUnlocked();
+    //What the utility stage does
+    public abstract boolean action();
 
 }

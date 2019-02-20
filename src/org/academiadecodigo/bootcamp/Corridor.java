@@ -27,7 +27,7 @@ public class Corridor implements KeyboardHandler {
     private Stages unicornios = new Unicornios();
     private Utilities pingPong = new PingPong();
     CatchScreen catchScreen;
-    private Stages stages;
+    private GameScreens stages;
 
 
     private Picture corridor1 = new Picture(10,10,"corr1.jpg");
@@ -70,13 +70,23 @@ public class Corridor implements KeyboardHandler {
         while (true) {
             System.out.print("");
             if (stageIsOngoing) {
-                stages.drawStage();
-                catchScreen = new CatchScreen();
-                bool=catchScreen.init();
-                if(bool){
+                if(stages instanceof Stages) {
+                    stages.drawStage();
+                    catchScreen = new CatchScreen();
+                    bool = catchScreen.init();
+                    if (bool) {
+                        stages.hideStage();
+                    }
+                    stageIsOngoing = false;
+                }else{
+                    stages.drawStage();
                     stages.hideStage();
+                    stageIsOngoing = false;
+                    /*
+                    if (bool) {
+                        stages.hideStage();
+                    }*/
                 }
-                stageIsOngoing=false;
             }
         }
 
@@ -99,7 +109,7 @@ public class Corridor implements KeyboardHandler {
         }
         if (keyboardEvent.getKey() == KeyboardEvent.KEY_3 && pingPong.isUnlocked()) {
             //Go to attic
-            stages=attic;
+            stages=pingPong;
             stageIsOngoing=true;
 
         }
