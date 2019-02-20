@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfa39661-c9d0-41e6-a4aa-9e28fd871184" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/GameScreens.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/StagesPack/Base.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/StagesPack/Unicornios.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/UtilitiesPack/PingPong.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/UtilitiesPack/Utilities.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/codecadet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/barraTent/org/academiadecodigo/bootcamp/Attic.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/barraTent/org/academiadecodigo/bootcamp/Stages.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Attic.java" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/StagesPack/Attic.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Stages.java" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/StagesPack/Stages.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/barraTent/org/academiadecodigo/bootcamp/Corridor.class" afterPath="$PROJECT_DIR$/out/production/barraTent/org/academiadecodigo/bootcamp/Corridor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/barraTent/org/academiadecodigo/bootcamp/Main.class" afterPath="$PROJECT_DIR$/out/production/barraTent/org/academiadecodigo/bootcamp/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/barraTent/org/academiadecodigo/bootcamp/Menu.class" afterPath="$PROJECT_DIR$/out/production/barraTent/org/academiadecodigo/bootcamp/Menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Corridor.java" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Corridor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Main.java" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Menu.java" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Menu.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -742,16 +727,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550661543889</updated>
-      <workItem from="1550661545329" duration="3612000" />
+      <workItem from="1550661545329" duration="3763000" />
     </task>
+    <task id="LOCAL-00001" summary="Stages implemented, Utilities superClass implemented and ping pong implemented as well.&#10;Missing the other utilities, the draw stage has to be &quot;GameScreens&quot; type and is instanceOf Stages to start the catch fase.">
+      <created>1550674273472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550674273472</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3612000" />
+    <option name="totallyTimeSpent" value="3763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="977" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -762,8 +754,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -789,6 +781,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Stages implemented, Utilities superClass implemented and ping pong implemented as well.&#10;Missing the other utilities, the draw stage has to be &quot;GameScreens&quot; type and is instanceOf Stages to start the catch fase." />
+    <option name="LAST_COMMIT_MESSAGE" value="Stages implemented, Utilities superClass implemented and ping pong implemented as well.&#10;Missing the other utilities, the draw stage has to be &quot;GameScreens&quot; type and is instanceOf Stages to start the catch fase." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
