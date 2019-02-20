@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1919efe-8673-4813-b78f-69958f5ec056" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/teste.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -57,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThrowingBar.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThrowingBar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ThrowingBar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1192">
@@ -67,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KeyboardHandler.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/simplegraphics.jar!/org/academiadecodigo/simplegraphics/keyboard/KeyboardHandler.class">
+      <file leaf-file-name="teste.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/teste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="75">
+              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -744,12 +745,20 @@
       <updated>1550478843830</updated>
       <workItem from="1550478845386" duration="11325000" />
       <workItem from="1550584317287" duration="1298000" />
-      <workItem from="1550604493214" duration="7894000" />
+      <workItem from="1550604493214" duration="8118000" />
     </task>
+    <task id="LOCAL-00001" summary="skjdferiubei">
+      <created>1550658342925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550658342925</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20517000" />
+    <option name="totallyTimeSpent" value="20741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="977" extended-state="6" />
@@ -791,6 +800,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="skjdferiubei" />
+    <option name="LAST_COMMIT_MESSAGE" value="skjdferiubei" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1124,6 +1139,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1192">
           <caret line="91" column="33" lean-forward="false" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/teste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding />
         </state>
       </provider>
